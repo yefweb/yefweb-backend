@@ -6,8 +6,7 @@ import {schemaTypes} from './schemas'
 export default defineConfig({
   name: 'default',
   title: 'portfolio',
-
-  projectId: 'v9ev6bnp',
+  projectId: import.meta.env.SANITY_STUDIO_PROJECT_ID,
   dataset: 'production',
 
   plugins: [deskTool(), visionTool()],
