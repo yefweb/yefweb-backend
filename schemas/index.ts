@@ -1,5 +1,5 @@
-import {works} from './works'
-import {abouts} from './abouts'
+import {projects} from './projects'
+
 import {skills} from './skills'
 
-export const schemaTypes = [works, abouts, skills]
+export const schemaTypes = [projects, skills]

@@ -1,8 +1,8 @@
 import {defineType} from 'sanity'
 
-export const works = defineType({
-  name: 'works',
-  title: 'Works',
+export const projects = defineType({
+  name: 'projects',
+  title: 'Projects',
   type: 'document',
   fields: [
     {
